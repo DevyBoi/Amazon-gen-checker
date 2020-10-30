@@ -4,7 +4,7 @@ import os
 
 def amazonapp():
     init(convert=True)
-    ctypes.windll.kernel32.SetConsoleTitleW("Amazon Gen and Checker Made With Python By TOG6#6666")
+    ctypes.windll.kernel32.SetConsoleTitleW("Amazon Gen and Checker Made With Python By Oneshotboi#2773")
 
     text = """
     ░█████╗░███╗░░░███╗░█████╗░███████╗░█████╗░███╗░░██╗  ░██████╗░███████╗███╗░░██╗  
@@ -38,7 +38,7 @@ def amazonapp():
             print(Fore.GREEN + code.upper())
             f.close()
             fix += 1
-            ctypes.windll.kernel32.SetConsoleTitleW("Generated Codes: " + str(fix) + "/" + str(amount) + " | MADE BY TOGGG")
+            ctypes.windll.kernel32.SetConsoleTitleW("Generated Codes: " + str(fix) + "/" + str(amount) + " | MADE BY ONESHOTBOI")
         time.sleep(2)
         os.system('cls')
         amazonapp()
@@ -61,11 +61,11 @@ def amazonapp():
                     mkj = open('valid.txt', 'a')
                     mkj.write(kll)
                     mkj.close()
-                    ctypes.windll.kernel32.SetConsoleTitleW("Amazon Checker | Checked: " + str(num) + "/" + str(len(giftcards)) + " | Valid: " + str(valid) + " | Invalid: " + str(invalid) + " | MADE BY TOG")
+                    ctypes.windll.kernel32.SetConsoleTitleW("Amazon Checker | Checked: " + str(num) + "/" + str(len(giftcards)) + " | Valid: " + str(valid) + " | Invalid: " + str(invalid) + " | MADE BY ONESHOTBOI")
                 else:
                     print(Fore.RED + 'INVALID GIFT CODES: ' + kll)
                     invalid += 1
-                    ctypes.windll.kernel32.SetConsoleTitleW("Amazon Checker | Checked: " + str(num) + "/" + str(len(giftcards)) + " | Valid: " + str(valid) + " | Invalid: " + str(invalid) + " | MADE BY TOG")
+                    ctypes.windll.kernel32.SetConsoleTitleW("Amazon Checker | Checked: " + str(num) + "/" + str(len(giftcards)) + " | Valid: " + str(valid) + " | Invalid: " + str(invalid) + " | MADE BY ONESHOTBOI")
             except IndexError as e:
                 sys.exit(0)
 
